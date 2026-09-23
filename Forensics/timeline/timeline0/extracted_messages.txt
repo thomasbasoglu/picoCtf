@@ -1,0 +1,25 @@
+Dec  1 20:41:04 localhost syslog.info syslogd started: BusyBox v1.36.1
+Dec  1 20:41:04 localhost daemon.info init: starting pid 2184, tty '': '/sbin/openrc default'
+Dec  1 20:41:04 localhost cron.info crond[2230]: crond (busybox 1.36.1) started, log level 8
+Dec  1 20:41:05 localhost auth.info sshd[2268]: Server listening on 0.0.0.0 port 22.
+Dec  1 20:41:05 localhost auth.info sshd[2268]: Server listening on :: port 22.
+Dec  1 20:41:05 localhost daemon.info init: starting pid 2273, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Dec  1 20:41:05 localhost daemon.info init: starting pid 2274, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Dec  1 20:41:05 localhost daemon.info init: starting pid 2278, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Dec  1 20:41:05 localhost daemon.info init: starting pid 2282, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Dec  1 20:41:05 localhost daemon.info init: starting pid 2285, tty '/dev/tty5': '/sbin/getty 38400 tty5'
+Dec  1 20:41:05 localhost daemon.info init: starting pid 2290, tty '/dev/tty6': '/sbin/getty 38400 tty6'
+Dec  1 20:41:05 localhost daemon.info init: starting pid 2291, tty '/dev/ttyS0': '/sbin/getty -L 0 ttyS0 vt100'
+Dec  1 20:41:16 localhost auth.info login[2295]: root login on 'ttyS0'
+Dec  1 20:42:12 localhost daemon.info init: starting pid 2298, tty '': '/sbin/openrc shutdown'
+Dec  1 20:42:12 localhost user.debug : Will stop /usr/sbin/sshd
+Dec  1 20:42:12 localhost user.debug : Will stop PID 2268
+Dec  1 20:42:12 localhost user.debug : Sending signal 15 to PID 2268
+Dec  1 20:42:12 localhost auth.info sshd[2268]: Received signal 15; terminating.
+Dec  1 20:42:13 localhost user.debug : Will stop /usr/sbin/crond
+Dec  1 20:42:13 localhost user.debug : Will stop PID 2230
+Dec  1 20:42:13 localhost user.debug : Sending signal 15 to PID 2230
+Dec  1 20:42:13 localhost user.debug : Will stop /sbin/syslogd
+Dec  1 20:42:13 localhost user.debug : Will stop PID 2177
+Dec  1 20:42:13 localhost user.debug : Sending signal 15 to PID 2177
+Dec  1 20:42:13 localhost syslog.info syslogd exiting
